@@ -8,7 +8,7 @@ import { Basket } from "./Pages/Basket/Basket";
 function App() {
   return (
     <div className="App">
-      <Basket />
+      <Outlet />
     </div>
   );
 }
