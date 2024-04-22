@@ -1,0 +1,11 @@
+.background-img {
+  background: url("../../UI/img/background.png");
+  height: 750px;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-position: center;
+  background-size: cover;
+  background-attachment: scroll;
+  background-color: rgba(0, 0, 0, 0.6);
+  background-blend-mode: overlay;
+}
