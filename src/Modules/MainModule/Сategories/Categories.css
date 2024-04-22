@@ -1,0 +1,72 @@
+.container{
+    width: 80%;
+    text-align: center;
+    margin-left: 10%;
+    padding-top: 100px;
+}
+
+.text-name{
+    font-size: 38px;
+    font-weight: 600;
+}
+
+.text-name-shorts{
+    font-size: 22px;
+    margin-top: 20px;
+    font-weight: 400;
+}
+
+.blocks-pay{
+    margin-top: 70px;
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(500px, 1fr));
+    grid-gap: 20px;
+}
+
+
+.blocks-pay>a{
+    height: 200px;
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    text-decoration: none;
+    color: #fff;
+    transition: 1s;
+    background-color: rgba(0, 0, 0, 0.6);
+    background-blend-mode: overlay;
+}
+
+.blocks-pay>a:hover{
+    transform-origin: center;
+    background-size: 120%;
+    background-color: rgba(0, 0, 0, 0);
+}
+
+.pay-block-1{
+    background-image:  url('../../../UI//img//piano.png');
+    
+}
+.pay-block-2{
+    background-image:  url('../../../UI//img//noroot.png');
+}
+.pay-block-3{
+    background-image:  url('../../../UI//img//image.png');
+}
+.pay-block-4{
+    background-image:  url('../../../UI//img//duh.png');
+}
+.pay-block-5{
+    background-image:  url('../../../UI//img//drum.png');
+}
+.pay-block-6{
+    background-image:  url('../../../UI//img//apparat.png');
+}
+
+.h1-text{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 150px;
+    text-align: center;
+}

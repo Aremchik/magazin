@@ -1,0 +1,28 @@
+.Footer-container{
+    width: 100%;
+    background-color: #1c1c1c;
+    text-align: center;
+    align-items: center;
+    align-content: center;
+    padding-top: 135px;
+    padding-bottom: 135px;
+    color: #fff;
+    line-height: 1.5;
+}
+
+
+.button-messangers{
+    width: 48px;
+    height: 48px;
+    padding: 5px;
+}
+
+
+.street-text{
+    color:#c49300;
+}
+
+.selected-all-button-messanger{
+    width: 50%;
+    margin-left: 25%;
+}

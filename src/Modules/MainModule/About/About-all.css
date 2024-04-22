@@ -1,0 +1,48 @@
+.about-container{
+    width: 100%;
+    text-align: center;
+    padding-top: 100px;
+    padding-bottom: 100px;
+    display: flex;
+    background-color: #ebebeb;
+    margin-top: 2rem;
+}
+
+.about-all{
+    max-width: 35%;
+    margin-left: 10%;
+    text-align: left;
+
+}
+
+.about-img{
+    width: 35%;
+    height: auto;
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    margin-left: 10%;
+}
+
+.about{
+    
+    font-weight: 700;
+}
+
+.about-text{
+    font-size: 20px;
+    line-height: 1.55;
+
+    font-family: 'Trebuchet MS', sans-serif;
+    font-weight: 300;
+    color: #000000;
+}
+
+.a-address{
+    color: #ff8562;
+}
+
+
+.a-address:hover{
+    color: #ff8562;
+}

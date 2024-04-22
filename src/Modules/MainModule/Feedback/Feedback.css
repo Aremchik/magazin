@@ -1,0 +1,50 @@
+.Feedback-container{
+    width: 80%;
+    text-align: center;
+    align-items: center;
+    align-content: center;
+    margin-left: 10%;
+    padding-top: 135px;
+    padding-bottom: 135px;
+}
+
+
+.feedback-text-question{
+    font-size: 42px;
+    margin-bottom: 24px;
+    font-family: 'Trebuchet MS', sans-serif;
+}
+
+.feedback-text-request, .feedback-text-give-number{
+    font-size: 22px;
+    line-height: 1.5;
+    font-weight: 500px;
+    padding-bottom: 20px;
+    font-family: 'Trebuchet MS', sans-serif;
+}
+
+.selected-post-number-button{
+    width: 100%;
+    display: flex;
+}
+
+
+.input-number-post{
+    width: 45%;
+    height: 60px;
+    padding-left: 15px;
+    margin-left: 15%;
+    font-size: 16px;
+    font-weight: 600;
+}
+
+.style-button-next-bd{
+    width: 20%;
+    height: 60px;
+    margin-left: 5%;
+    border: 0;
+    background-color: black;
+    color: #fff;
+    font-size: 16px;
+    font-weight: 600;
+}

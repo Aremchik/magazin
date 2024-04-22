@@ -1,0 +1,70 @@
+.categories-content{
+    width: 15%;
+    margin-left: 1rem;
+    margin-top: 1rem;
+}
+
+.categories-content>div{
+    width: 100%;
+
+    background-size: cover;
+
+    border-bottom: 1px solid black;
+    text-align: center;
+    padding-top: 15px;
+    padding-bottom: 15px;
+    transition: ease-in-out 0.2s;
+    color: #fff;
+}
+
+
+.categories-text{
+    width: 90%;
+    font-size: 24px;
+    font-weight: 600;
+    text-decoration: none;
+    color: black;
+    transition: ease-in-out 0.2s;
+}
+
+.categories-text:hover{
+    color: #fff;
+}
+
+.drum:hover{
+    background-image: url('../../../UI/img/drum.png');
+    background-color: rgba(0, 0, 0, 0);
+    background-blend-mode: overlay;
+    
+}
+
+.apparat:hover{
+    background-image: url('../../../UI/img/apparat.png');
+    background-color: rgba(0, 0, 0, 0);
+    background-blend-mode: overlay;
+}
+
+.piano:hover{
+    background-image: url('../../../UI/img/piano.png');
+    background-color: rgba(0, 0, 0, 0);
+    background-blend-mode: overlay;
+}
+
+.duhov:hover{
+    background-image: url('../../../UI/img/duh.png');
+    background-color: rgba(0, 0, 0, 0);
+    background-blend-mode: overlay;
+}
+
+.ukulele:hover{
+    background-image: url('../../../UI/img/image.png');
+    background-color: rgba(0, 0, 0, 0);
+    background-blend-mode: overlay;
+}
+
+.guitar:hover{
+    background-image: url('../../../UI/img/noroot.png');
+    background-color: rgba(0, 0, 0, 0);
+    background-blend-mode: overlay;
+    
+}
