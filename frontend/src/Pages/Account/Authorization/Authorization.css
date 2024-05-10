@@ -1,0 +1,55 @@
+.authorization-block {
+  background: url("../../../UI/img/background.png");
+  height: 87.9vh;
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+  background-color: rgba(0, 0, 0, 0.6);
+  background-blend-mode: overlay;
+}
+.loginForm {
+  max-width: 300px;
+  margin: auto;
+  padding: 20px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  background-color: #fff;
+}
+
+.loginForm h2 {
+  text-align: center;
+}
+
+.inputGroup {
+  margin-bottom: 15px;
+}
+
+.inputGroup label {
+  display: block;
+  margin-bottom: 5px;
+}
+
+.inputGroup input {
+  width: 93%;
+  padding: 10px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+}
+
+.button-auth,
+.button-registr {
+  padding: 10px;
+  background-color: #ff6347;
+  color: #fff;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  margin-top: 3%;
+  display: block;
+  text-align: center;
+  text-decoration: none;
+}
+
+.button-auth:hover {
+  background-color: #ff8562;
+}

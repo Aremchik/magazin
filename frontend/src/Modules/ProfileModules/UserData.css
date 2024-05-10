@@ -1,0 +1,36 @@
+.userData-container {
+  display: flex;
+  flex-direction: column;
+  width: 90vh;
+  height: 60vh;
+  margin: 0 auto;
+  padding: 20px;
+  background-color: #f8f8f8;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+}
+
+.userData-container input {
+  padding: 10px;
+  margin: 5px 0;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+}
+
+.userData-container button {
+  padding: 12px;
+  background-color: #ff6347;
+  color: #fff;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  margin-top: 3%;
+  display: block;
+  text-align: center;
+  text-decoration: none;
+}
+.data-text {
+  font-size: 14px;
+  font-weight: 700;
+  color: rgb(115, 115, 115);
+}

@@ -1,0 +1,12 @@
+.profile-container {
+  background: url("../../../UI/img/background.png");
+  height: 87.9vh;
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+  background-color: rgba(0, 0, 0, 0.6);
+  background-blend-mode: overlay;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}

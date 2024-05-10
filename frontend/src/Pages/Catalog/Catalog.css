@@ -1,0 +1,16 @@
+.catalog-page {
+  background: url("../../UI/img/background.png");
+  height: 618px;
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+  background-color: rgba(0, 0, 0, 0.6);
+  background-blend-mode: overlay;
+  display: flex;
+}
+
+.page-title {
+  font-size: 28px;
+  font-weight: bold;
+  margin-bottom: 20px;
+}

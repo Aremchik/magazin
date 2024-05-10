@@ -1,0 +1,69 @@
+.mainpage-container {
+  overflow: hidden;
+}
+.background-img {
+  background: url("../../UI/img/background.png");
+  height: 750px;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-position: center;
+  background-size: cover;
+  background-attachment: scroll;
+  background-color: rgba(0, 0, 0, 0.6);
+  background-blend-mode: overlay;
+  text-align: center;
+  justify-content: center;
+}
+
+.welcome-text {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  text-align: center;
+  width: 80%;
+}
+
+.welcome {
+  color: azure;
+  text-align: center;
+  font-size: 48px;
+  padding-top: 52px;
+  font-weight: 700;
+  padding-bottom: 15px;
+}
+
+.all-text-muzufa {
+  color: azure;
+  text-align: center;
+  padding-top: 2px;
+  padding-bottom: 42px;
+  font-size: 22px;
+  font-weight: 500;
+  width: 50%;
+  margin-left: 25%;
+  font-family: "Trebuchet MS", sans-serif;
+}
+
+.h1-about {
+  padding-top: 52px;
+  padding-bottom: 42px;
+}
+
+.button-next-catalog {
+  color: #ffffff;
+  background-color: #c49300;
+  transition-duration: 0.2s;
+  transition-timing-function: ease-in-out;
+  font-size: 20px;
+  padding-left: 50px;
+  padding-right: 50px;
+  padding-bottom: 20px;
+  padding-top: 20px;
+  text-decoration: none;
+}
+
+.button-next-catalog:hover {
+  color: #ffffff;
+  background-color: #ab8102;
+}

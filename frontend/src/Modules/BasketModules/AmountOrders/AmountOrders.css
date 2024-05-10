@@ -1,0 +1,51 @@
+.amount-order {
+  background-color: white;
+  height: 240px;
+  border-radius: 10px;
+  border: solid 2px black;
+  margin-left: 3%;
+  width: 60vh;
+  padding-left: 10px;
+  padding-right: 10px;
+  padding-top: 1px;
+}
+
+.result {
+  margin-left: 10px;
+  margin-right: 10px;
+  background-color: lightgray;
+  padding: 25px;
+  border-radius: 10px;
+  height: 25px;
+  align-items: center;
+  justify-content: space-between;
+  display: flex;
+}
+
+.pay {
+  margin-left: 10px;
+  margin-right: 10px;
+  background-color: #ff8562;
+  color: white;
+  padding: 13px;
+  font-size: 16px;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  margin-top: 3vh;
+}
+
+.pay:hover {
+  background-color: #ff6347;
+  color: #fff;
+}
+
+.result-coontainer {
+  justify-content: center;
+  display: flex;
+  flex-direction: column;
+}
+
+.amount-order-text {
+  margin-left: 10px;
+}
