@@ -1,73 +1,61 @@
 import { useState } from "react";
 import "./BasketGoods.css";
+import axios from "axios";
+import { useSelector } from "react-redux";
+import { RootState } from "../../../redux/Store";
 
-interface Product {
-  id: number;
-  category: string;
-  title: string;
-  price: number;
-  description: string;
-  image: string;
-  number_items: number;
+interface CartData {
+  orderid: number;
+  productid: number;
+  orderedproductid: number;
+  numberitems: number;
+  order: {
+    orderid: number;
+    userid: number;
+    totalamount: number;
+    orderdate: string;
+    user: any;
+  };
+  product: {
+    id: number;
+    title: string;
+    category: string;
+    price: number;
+    description: string;
+  };
 }
 
 type BasketItemProps = {
-  product: Product;
+  productsData: CartData;
   updateTotalSum: (newSum: number) => void;
   totalSum: number;
+  handleProductDelete: (productId: number) => void;
 };
 
 export const BasketItem: React.FC<BasketItemProps> = ({
-  product,
+  productsData,
   updateTotalSum,
   totalSum,
+  handleProductDelete,
 }) => {
-  const [numberItems, setNumberItems] = useState<number>(product.number_items);
-  const [sumItems, setSumItems] = useState<number>(
-    product.price * product.number_items
-  );
-
-  const incrementCount = (num: number) => {
-    setNumberItems(numberItems + 1);
-    setSumItems(num + sumItems);
-    updateTotalSum(num + totalSum);
-  };
-
-  const decrementCount = (num: number) => {
-    if (numberItems > 1) {
-      setNumberItems(numberItems - 1);
-      setSumItems(sumItems - num);
-      updateTotalSum(totalSum - num);
-    }
-  };
-
   return (
     <div className="item-block">
       <>
         <img
           className="item-img"
-          src={require(`../../../UI/${product.image}`)}
-          alt={product.category}
+          src={`https://localhost:7289/images/images/${productsData.product.category}/${productsData.product.category}${productsData.product.id}.jpg`}
         />
         <div className="item-name-block">
-          <div className="item-name">{product.title}</div>
-          <div className="item-price">{product.price}p</div>
+          <div className="item-name">{productsData.product.title}</div>
+          <div className="item-price">{productsData.product.price}p</div>
         </div>
         <div className="sum-block">
-          <div className="sum-items">{sumItems}</div>
           <div className="counter-container">
             <button
               className="button"
-              onClick={() => decrementCount(product.price)}
+              onClick={() => handleProductDelete(productsData.productid)}
             >
-              -
-            </button>
-            <span className="count">{numberItems}</span>
-            <button
-              className="button"
-              onClick={() => incrementCount(product.price)}
-            >
-              +
+              X
             </button>
           </div>
         </div>

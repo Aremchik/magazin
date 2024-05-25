@@ -1,12 +1,27 @@
-import { useState } from "react";
+import { useEffect, useState } from "react";
 import "./Authorization.css";
+import { AppDispatch, RootState } from "../../../redux/Store";
+import { useDispatch, useSelector } from "react-redux";
+import { loginUser } from "../../../redux/AuthSlice";
+import { useNavigate } from "react-router-dom";
 
 export const Authorization: React.FC = () => {
+  const navigate = useNavigate();
   const [username, setUsername] = useState<string>("");
   const [password, setPassword] = useState<string>("");
+  const dispatch: AppDispatch = useDispatch();
+  const authState = useSelector((state: RootState) => state.auth);
 
-  const handleSubmit = (e: React.FormEvent) => {
+  // Monitor the auth state for JWT token changes
+  useEffect(() => {
+    if (authState.token) {
+      navigate("/Profile");
+    }
+  }, [authState.token, navigate]);
+
+  const handleSubmit = async (e: React.FormEvent) => {
     e.preventDefault();
+    await dispatch(loginUser({ email: username, password: password }));
   };
 
   return (
@@ -33,7 +48,7 @@ export const Authorization: React.FC = () => {
             />
           </div>
           <div className="button-auth-container">
-            <a href="/Profile" className="button-auth">
+            <a onClick={handleSubmit} className="button-auth">
               Войти
             </a>
             <a href="/Registration" className="button-auth">

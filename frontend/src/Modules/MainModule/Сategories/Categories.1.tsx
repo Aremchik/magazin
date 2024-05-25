@@ -13,22 +13,22 @@ export const Categories = () => {
 
       <div className="blocks-pay">
         <a href="/catalog" className="pay-block-1">
-          <h1 className="h1-text">Гитары</h1>
+          <h1 className="h1-text">Клавишные</h1>
         </a>
         <a href="/catalog" className="pay-block-2">
-          <h1 className="h1-text">Гитары</h1>
+          <h1 className="h1-text">Гитары</h1>с
         </a>
         <a href="/catalog" className="pay-block-3">
           <h1 className="h1-text">Гитары</h1>
         </a>
         <a href="/catalog" className="pay-block-4">
-          <h1 className="h1-text">Гитары</h1>
+          <h1 className="h1-text">Духовые</h1>
         </a>
         <a href="/catalog" className="pay-block-5">
-          <h1 className="h1-text">Гитары</h1>
+          <h1 className="h1-text">Ударные</h1>
         </a>
         <a href="/catalog" className="pay-block-6">
-          <h1 className="h1-text">Гитары</h1>
+          <h1 className="h1-text">Оборудывание</h1>
         </a>
       </div>
     </div>

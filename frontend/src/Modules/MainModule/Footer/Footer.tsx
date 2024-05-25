@@ -7,9 +7,9 @@ export const Footer = () => {
       <h1 className="Footer-about">
         +7 (927) 343-20-93
         <br />
-        Muzufa@yandex.ru
+        MuzТорг@yandex.ru
       </h1>
-      <h3 className="street-text">ул. Пархоменко, 96/98, Уфа</h3>
+      <h3 className="street-text">ул. Пархоменко, 96/98, Москва</h3>
       <div className="selected-all-button-messanger">
         <a className="button-messangers" href="**">
           <img src={require("../../../UI/img/tg-button.png")} />

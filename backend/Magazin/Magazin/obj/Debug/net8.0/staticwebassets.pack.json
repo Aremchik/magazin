@@ -1,0 +1,73 @@
+{
+  "Files": [
+    {
+      "Id": "D:\\prod\\Prilo\\Gotov\\my-app\\backend\\Magazin\\Magazin\\wwwroot\\images\\drum\\drum1.jpg",
+      "PackagePath": "staticwebassets\\images\\drum\\drum1.jpg"
+    },
+    {
+      "Id": "D:\\prod\\Prilo\\Gotov\\my-app\\backend\\Magazin\\Magazin\\wwwroot\\images\\drum\\drum2.jpg",
+      "PackagePath": "staticwebassets\\images\\drum\\drum2.jpg"
+    },
+    {
+      "Id": "D:\\prod\\Prilo\\Gotov\\my-app\\backend\\Magazin\\Magazin\\wwwroot\\images\\duh\\duh3.jpg",
+      "PackagePath": "staticwebassets\\images\\duh\\duh3.jpg"
+    },
+    {
+      "Id": "D:\\prod\\Prilo\\Gotov\\my-app\\backend\\Magazin\\Magazin\\wwwroot\\images\\duh\\duh4.jpg",
+      "PackagePath": "staticwebassets\\images\\duh\\duh4.jpg"
+    },
+    {
+      "Id": "D:\\prod\\Prilo\\Gotov\\my-app\\backend\\Magazin\\Magazin\\wwwroot\\images\\equipment\\equipment5.jpg",
+      "PackagePath": "staticwebassets\\images\\equipment\\equipment5.jpg"
+    },
+    {
+      "Id": "D:\\prod\\Prilo\\Gotov\\my-app\\backend\\Magazin\\Magazin\\wwwroot\\images\\equipment\\equipment6.jpg",
+      "PackagePath": "staticwebassets\\images\\equipment\\equipment6.jpg"
+    },
+    {
+      "Id": "D:\\prod\\Prilo\\Gotov\\my-app\\backend\\Magazin\\Magazin\\wwwroot\\images\\guitar\\guitar7.jpg",
+      "PackagePath": "staticwebassets\\images\\guitar\\guitar7.jpg"
+    },
+    {
+      "Id": "D:\\prod\\Prilo\\Gotov\\my-app\\backend\\Magazin\\Magazin\\wwwroot\\images\\guitar\\guitar8.jpg",
+      "PackagePath": "staticwebassets\\images\\guitar\\guitar8.jpg"
+    },
+    {
+      "Id": "D:\\prod\\Prilo\\Gotov\\my-app\\backend\\Magazin\\Magazin\\wwwroot\\images\\guitar\\guitar9.jpg",
+      "PackagePath": "staticwebassets\\images\\guitar\\guitar9.jpg"
+    },
+    {
+      "Id": "D:\\prod\\Prilo\\Gotov\\my-app\\backend\\Magazin\\Magazin\\wwwroot\\images\\piano\\piano11.jpg",
+      "PackagePath": "staticwebassets\\images\\piano\\piano11.jpg"
+    },
+    {
+      "Id": "D:\\prod\\Prilo\\Gotov\\my-app\\backend\\Magazin\\Magazin\\wwwroot\\images\\piano\\piano12.jpg",
+      "PackagePath": "staticwebassets\\images\\piano\\piano12.jpg"
+    },
+    {
+      "Id": "D:\\prod\\Prilo\\Gotov\\my-app\\backend\\Magazin\\Magazin\\wwwroot\\images\\piano\\piano13.jpg",
+      "PackagePath": "staticwebassets\\images\\piano\\piano13.jpg"
+    },
+    {
+      "Id": "D:\\prod\\Prilo\\Gotov\\my-app\\backend\\Magazin\\Magazin\\wwwroot\\images\\ukulele\\ukulele10.jpg",
+      "PackagePath": "staticwebassets\\images\\ukulele\\ukulele10.jpg"
+    },
+    {
+      "Id": "obj\\Debug\\net8.0\\staticwebassets\\msbuild.Magazin.Microsoft.AspNetCore.StaticWebAssets.props",
+      "PackagePath": "build\\Microsoft.AspNetCore.StaticWebAssets.props"
+    },
+    {
+      "Id": "obj\\Debug\\net8.0\\staticwebassets\\msbuild.build.Magazin.props",
+      "PackagePath": "build\\Magazin.props"
+    },
+    {
+      "Id": "obj\\Debug\\net8.0\\staticwebassets\\msbuild.buildMultiTargeting.Magazin.props",
+      "PackagePath": "buildMultiTargeting\\Magazin.props"
+    },
+    {
+      "Id": "obj\\Debug\\net8.0\\staticwebassets\\msbuild.buildTransitive.Magazin.props",
+      "PackagePath": "buildTransitive\\Magazin.props"
+    }
+  ],
+  "ElementsToRemove": []
+}

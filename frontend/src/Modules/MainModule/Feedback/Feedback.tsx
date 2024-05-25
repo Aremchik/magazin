@@ -8,9 +8,9 @@ export const Feedback = () => {
       <div className="feedback-text-request">
         Напишите нам на почту или свяжитесь по телефону:
         <br />
-        Muzufa@yandex.ru
+        MuzТорг@yandex.ru
         <br />
-        +7 (927) 236-36-73
+        +7 (9327) 236-36-73
         <br />
         <strong>Не подходит ни один из способов?</strong>
       </div>

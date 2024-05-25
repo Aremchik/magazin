@@ -1,25 +1,42 @@
 import React, { useState } from "react";
 import "./Registration.css";
+import axios from "axios";
+import { useNavigate } from "react-router-dom";
 
 export const Registration: React.FC = () => {
+  const navigate = useNavigate();
   const [email, setEmail] = useState<string>("");
   const [password, setPassword] = useState<string>("");
   const [confirmPassword, setConfirmPassword] = useState<string>("");
 
   const handleSubmit = (e: React.FormEvent) => {
     e.preventDefault();
+
     if (password !== confirmPassword) {
-      alert("Пароль ен совпадет");
+      alert("Passwords do not match");
     } else {
-      alert(`Email: ${email}, Password: ${password}`);
-      // You can add your registration logic here
+      const userData = {
+        email: email,
+        password: password,
+      };
+
+      axios
+        .post("https://localhost:7289/api/Catalog/register", userData)
+        .then((response) => {
+          console.log(response.data);
+          navigate("/Authorization");
+        })
+        .catch((error) => {
+          console.error("Registration error:", error.message);
+          alert("Registration failed. Please try again.");
+        });
     }
   };
 
   return (
     <div className="registration-block">
       <div className="registration-form">
-        <h2>Registration</h2>
+        <h2>Регистрация</h2>
         <form>
           <div className="input-group">
             <label htmlFor="email">Логин:</label>
@@ -48,7 +65,7 @@ export const Registration: React.FC = () => {
               onChange={(e) => setConfirmPassword(e.target.value)}
             />
           </div>
-          <a href="/Authorization" className="button-auth">
+          <a onClick={handleSubmit} className="button-auth">
             Зарегистрироваться
           </a>
         </form>
