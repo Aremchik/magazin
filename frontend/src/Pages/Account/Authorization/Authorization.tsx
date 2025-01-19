@@ -28,7 +28,7 @@ export const Authorization: React.FC = () => {
     <div className="authorization-block">
       <div className="test">hii</div>
       <div className="loginForm">
-        <h2>Вход</h2>
+        <h2>Входик</h2>
         <form>
           <div className="inputGroup">
             <label htmlFor="username">Логин:</label>
